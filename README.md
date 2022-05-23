@@ -18,7 +18,7 @@ Usage [optional]:
 
 IMPORTANT!!!
 
-1. If the compilation fails, please comment following in CMakeLists.txt, then recompile to bulid dependencies(msg)
+1. If the compilation fails, please comment following in CMakeLists.txt, then recompile to build dependencies(msg)
 
 	add_executable(birl_mocap src/birl_mocap.cpp)
 	target_link_libraries(birl_mocap ${catkin_LIBRARIES} NatNetLibShared)
