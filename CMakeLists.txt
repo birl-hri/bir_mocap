@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   geometry_msgs
+  tf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -132,6 +133,8 @@ link_directories(
 
 add_executable(birl_mocap src/birl_mocap.cpp)
 target_link_libraries(birl_mocap ${catkin_LIBRARIES} NatNetLibShared)
+add_executable(Sk_tf_broadcaster src/Skeletons_tf_broadcaster.cpp)
+target_link_libraries(Sk_tf_broadcaster ${catkin_LIBRARIES} NatNetLibShared)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

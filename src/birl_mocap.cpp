@@ -639,8 +639,8 @@ void NATNET_CALLCONV DataHandler(sFrameOfMocapData *data, void *pUserData)
 
         RBs_data.RigidBody[i].name = RB_names[data->RigidBodies[i].ID];
         RBs_data.RigidBody[i].pose.position.x = data->RigidBodies[i].x;
-        RBs_data.RigidBody[i].pose.position.y = data->RigidBodies[i].x;
-        RBs_data.RigidBody[i].pose.position.z = data->RigidBodies[i].x;
+        RBs_data.RigidBody[i].pose.position.y = data->RigidBodies[i].y;
+        RBs_data.RigidBody[i].pose.position.z = data->RigidBodies[i].z;
         RBs_data.RigidBody[i].pose.orientation.x = data->RigidBodies[i].qx;
         RBs_data.RigidBody[i].pose.orientation.y = data->RigidBodies[i].qy;
         RBs_data.RigidBody[i].pose.orientation.z = data->RigidBodies[i].qz;
