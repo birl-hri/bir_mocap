@@ -8,7 +8,7 @@ Usage [optional]:
 
 	rosrun birl_mocap birl_mocap [ServerIP] [LocalIP] 
 
-	[ServerIP]			IP address of the server (e.g. 192.168.0.107) ( defaults to local machine)
+	[ServerIP] IP address of the server (e.g. 192.168.0.107) ( defaults to local machine)
 
     or 
 
